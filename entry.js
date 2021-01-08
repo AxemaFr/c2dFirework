@@ -1,5 +1,5 @@
-import { initPhysics } from './physics.js';
-import { initRenderer } from './c2d.js';
+import { initPhysics } from './js-c2d/physics.js';
+import { initRenderer } from './js-c2d/renderer.js';
 
 async function main() {
   const canvas = document.querySelector('canvas');

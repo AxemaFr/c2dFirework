@@ -6,8 +6,8 @@ export async function initRenderer(canvas) {
       canvas.width = width;
       canvas.height = height;
       ctx.translate(width / 2, height / 2);
+      ctx.fillStyle = 'white';
     }
-    ctx.fillStyle = '#' + Math.floor(Math.random()*16777215).toString(16);
 
     ctx.clearRect(
       -width / 2,
